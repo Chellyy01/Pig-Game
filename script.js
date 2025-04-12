@@ -55,7 +55,7 @@ holdButton.addEventListener("click", function () {
   currentScoreEl[activePlayer].textContent = currentScore;
 
   //check if score >= 100
-  if (scores[activePlayer] >= 20) {
+  if (scores[activePlayer] >= 100) {
     //end game
     diceEl.classList.add("hidden");
     playerEl[activePlayer].classList.add("winner");
